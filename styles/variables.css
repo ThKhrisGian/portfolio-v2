@@ -1,0 +1,28 @@
+:root {
+  /* Colors */
+  --bg-color: #ebe9e2;
+  --txt-color: #141414;
+  --pink-red: #ff4754;
+  --dark-purple: #201c24;
+  /* Text Size */
+  --txt-xs: 0.75rem; /* 12px */
+  --txt-sm: 0.875rem; /* 14px */
+  --txt-md: 1rem; /* 16px */
+  --txt-lg: 1.125rem; /* 18px */
+  --txt-xl: 1.25rem; /* 20px */
+  --txt-2xl: 1.5rem; /* 24px */
+  --txt-3xl: 1.875rem; /* 30px */
+  --txt-4xl: 2.25rem; /* 36px */
+  --txt-5xl: 3rem; /* 48px */
+  --txt-6xl: 3.75rem; /* 60px */
+  --txt-7xl: 4.5rem; /* 72px */
+  --txt-8xl: 6rem; /* 96px */
+  --txt-9xl: 8rem; /* 128px */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #141414;
+    --txt-color: #ebe2e2;
+  }
+}

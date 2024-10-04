@@ -1,0 +1,55 @@
+.navbar {
+  padding: 1rem 0;
+}
+
+.navbar__list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar__item{
+  opacity: 0.65;
+  cursor: pointer;
+  transition: color 0.3s ease, opacity 0.3s ease;
+  display: none;
+  font-size: var(--txt-sm);
+}
+
+.navbar__item:hover {
+  color: var(--pink-red);
+  opacity: 1;
+}
+
+.navbar__item--separator {
+  background-color: var(--pink-red);
+  width: 2px;
+  height: 1.5rem;
+  cursor: initial;
+}
+
+.navbar_item--menu {
+  display: block;
+  transition: opacity 0.3s ease;
+}
+
+.navbar_item--menu svg {
+  height: 2rem;
+  width: 2rem;
+  transition: color 0.3s ease;
+}
+
+.navbar_item--menu svg:hover{
+  color: var(--pink-red);
+}
+
+@media (width >= 768px) {
+  .navbar__item {
+    display: block;
+  }
+
+  .navbar_item--menu {
+    display: none;
+  }
+}
