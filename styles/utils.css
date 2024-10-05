@@ -27,7 +27,7 @@
   z-index: -1;
 }
 
-.button::after{
+.button::after {
   content: "";
   display: block;
   position: absolute;
@@ -43,7 +43,6 @@
   z-index: 2;
 }
 
-
 .button:hover::before {
   width: calc(100% + 2rem);
   height: calc(100% + 2rem);
@@ -53,13 +52,23 @@
 }
 
 @media (width >= 768px) {
-  .container{
+  .container {
     margin: 0 2rem;
   }
 }
 
 @media (width >= 1024px) {
-  .container{
+  .container {
     margin: 0 4rem;
   }
+}
+
+@media (width >= 1280px) {
+  .container {
+    margin: 0 10rem;
+  }
+}
+
+.no-scroll {
+  overflow: hidden; /* Desactiva el scroll */
 }

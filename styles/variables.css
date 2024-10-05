@@ -3,7 +3,9 @@
   --bg-color: #ebe9e2;
   --txt-color: #141414;
   --pink-red: #ff4754;
+  --light-gray: #ebe9e2;
   --dark-purple: #201c24;
+  --dark-color: #141414;
   /* Text Size */
   --txt-xs: 0.75rem; /* 12px */
   --txt-sm: 0.875rem; /* 14px */
@@ -20,9 +22,20 @@
   --txt-9xl: 8rem; /* 128px */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg-color: #141414;
-    --txt-color: #ebe2e2;
-  }
+
+body.dark-mode {
+  --bg-color: #141414;
+  --txt-color: #ebe2e2;
+  --pink-red: #ff4754;
+  --dark-purple: #121212;
+}
+
+/* Aplica las variables de color a los elementos necesarios */
+body {
+  background-color: var(--bg-color);
+  color: var(--txt-color);
+}
+
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
