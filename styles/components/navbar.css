@@ -4,7 +4,7 @@
 
 .navbar--active {
   height: calc(100vh - 2rem);
-  width: min( 20rem,50%);
+  width: min(20rem, 50%);
   position: fixed;
   top: 0;
   right: -1rem;
@@ -108,6 +108,10 @@
 
 .navbar_item--menu svg:hover {
   color: var(--pink-red);
+}
+
+.navbar__cv {
+  opacity: 1 !important;
 }
 
 @media (width >= 768px) {

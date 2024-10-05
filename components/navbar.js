@@ -56,4 +56,3 @@ window.addEventListener("resize", () => {
     body.classList.remove("no-scroll");
   }
 });
-
