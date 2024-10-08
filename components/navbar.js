@@ -6,6 +6,7 @@ const navBarItems = document.querySelectorAll(".navbar__item");
 const separator = document.querySelector(".navbar__item--separator");
 const body = document.querySelector("body");
 const toggleThemeButton = document.querySelector(".navbar__sun");
+const socialMediaLinks = document.querySelectorAll(".hero__social-media-link");
 
 // Cargar el tema desde el localStorage si existe
 const savedTheme = localStorage.getItem("theme");
@@ -13,11 +14,18 @@ const savedTheme = localStorage.getItem("theme");
 // Si el tema guardado es "dark", se activa el modo oscuro al cargar la página
 if (savedTheme === "dark") {
   document.body.classList.add("dark-mode");
+  socialMediaLinks.forEach((link) => {
+    link.classList.add("dark-theme");
+  })
 }
 
 // Función para alternar el modo oscuro
 const toggleDarkMode = () => {
   document.body.classList.toggle("dark-mode");
+
+  socialMediaLinks.forEach((link) => {
+    link.classList.toggle("dark-theme");
+  })
 
   // Almacenar la preferencia de tema en localStorage
   if (document.body.classList.contains("dark-mode")) {
@@ -29,7 +37,6 @@ const toggleDarkMode = () => {
 
 // Añadir el event listener para alternar el tema al hacer clic en el botón
 toggleThemeButton.addEventListener("click", toggleDarkMode);
-
 
 menu.addEventListener("click", () => {
   navbar.classList.toggle("navbar--active");

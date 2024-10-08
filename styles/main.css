@@ -29,7 +29,6 @@ p {
 }
 
 svg {
-  fill: currentColor;
   width: var(--txt-md);
   height: var(--txt-md);
 }
