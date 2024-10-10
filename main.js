@@ -4,5 +4,6 @@ import "./styles/variables.css";
 import "./styles/utils.css";
 import "./styles/components/navbar.css";
 import "./styles/components/hero.css";
+import "./styles/components/projects.css";
 import "./styles/components/mainContent.css";
 import "./components/navbar.js";
