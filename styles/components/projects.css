@@ -194,20 +194,6 @@
     width: 1.5rem;
     height: 1.5rem;
   }
-
-  .project__description {
-    font-size: 1.125rem;
-    line-height: 1.25rem;
-  }
-
-  .project__technology {
-    font-size: 0.875rem;
-  }
-
-  .project__technology svg {
-    width: 0.875rem;
-    height: 0.875rem;
-  }
 }
 
 @media (width >= 1280px) {
