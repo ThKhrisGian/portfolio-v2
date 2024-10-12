@@ -141,7 +141,7 @@
     font-size: 1.75rem;
   }
 
-  .education__institution{
+  .education__institution {
     font-size: 1rem;
     line-height: 1.15rem;
   }
@@ -150,17 +150,26 @@
     font-size: 1rem;
   }
 
-  .education__name{
+  .education__name {
     font-size: 0.85rem;
     line-height: 1.15rem;
   }
 
-  .educations__certificates{
+  .educations__certificates {
     font-size: 1rem;
     line-height: 1.15rem;
   }
 
-  .certificate__name{
+  .certificate__icon {
+    display: flex;
+  }
+
+  .certificate {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .certificate__name {
     font-size: 1rem;
     line-height: 1.15rem;
   }
@@ -169,12 +178,10 @@
     font-size: 1rem;
   }
 
-  .certificate__institution{
+  .certificate__institution {
     font-size: 0.85rem;
     line-height: 1.15rem;
   }
-
-
 }
 
 @media (width >= 1024px) {
@@ -186,15 +193,6 @@
 
   .educations__title {
     font-size: 2rem;
-  }
-
-  .certificate__icon {
-    display: flex;
-  }
-
-  .certificate {
-    flex-direction: row;
-    justify-content: space-between;
   }
 }
 
@@ -209,7 +207,7 @@
     gap: 1.25rem;
   }
 
-  .education__institution{
+  .education__institution {
     font-size: 1.25rem;
     line-height: 1.15rem;
   }
@@ -218,12 +216,12 @@
     font-size: 1.25rem;
   }
 
-  .education__name{
+  .education__name {
     font-size: 1rem;
     line-height: 1.15rem;
   }
 
-  .educations__certificates{
+  .educations__certificates {
     font-size: 1.25rem;
     line-height: 1.15rem;
   }
@@ -232,7 +230,7 @@
     gap: 1.5rem;
   }
 
-  .certificate__name{
+  .certificate__name {
     font-size: 1.25rem;
     line-height: 1.15rem;
   }
@@ -241,9 +239,8 @@
     font-size: 1.25rem;
   }
 
-  .certificate__institution{
+  .certificate__institution {
     font-size: 1rem;
     line-height: 1.15rem;
   }
-
 }
