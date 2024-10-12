@@ -128,6 +128,15 @@
     margin-bottom: 2.25rem;
   }
 
+  .education__icon {
+    display: flex;
+  }
+
+  .education {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
   .educations__title {
     font-size: 1.75rem;
   }
@@ -177,15 +186,6 @@
 
   .educations__title {
     font-size: 2rem;
-  }
-
-  .education__icon {
-    display: flex;
-  }
-
-  .education {
-    flex-direction: row;
-    justify-content: space-between;
   }
 
   .certificate__icon {
