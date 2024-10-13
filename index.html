@@ -695,8 +695,8 @@
             </svg>
             Tailwind</span
           >
-          <span class="skill"
-            ><svg
+          <span class="skill">
+            <svg
               width="24px"
               height="24px"
               viewBox="0 0 24 24"
@@ -717,8 +717,9 @@
                 <clipPath id="clip0_4265_8372">
                   <rect width="24" height="24" fill="white"></rect>
                 </clipPath>
-              </defs></svg
-            >Git</span
+              </defs>
+            </svg>
+            Git</span
           >
         </div>
       </section>
@@ -834,6 +835,39 @@
             <span class="certificate__year">2023</span>
           </li>
         </ul>
+      </section>
+      <section class="container contact">
+        <h2 class="contact__title">Contact</h2>
+        <form class="contact__form" action="#" method="POST">
+          <label class="contact__label" for="name">Name</label>
+          <input
+            class="contact__input contact__input--name"
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Name"
+            required
+          />
+          <label class="contact__label" for="email">Email</label>
+          <input
+            class="contact__input contact__input--email"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+            required
+          />
+          <label class="contact__label" for="message">Message</label>
+          <textarea
+            class="contact__textarea"
+            name="message"
+            id="message"
+            placeholder="Message"
+            oninput="this.style.height = ''; this.style.height = this.scrollHeight + 'px';"
+            required
+          ></textarea>
+          <button class="button contact__button" type="submit">Send Message</button>
+        </form>
       </section>
     </main>
     <script type="module" src="/main.js"></script>

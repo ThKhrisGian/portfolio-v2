@@ -7,5 +7,6 @@ import "./styles/components/hero.css";
 import "./styles/components/projects.css";
 import "./styles/components/skills.css";
 import "./styles/components/educations.css";
+import "./styles/components/contact.css";
 import "./styles/components/mainContent.css";
 import "./components/navbar.js";
