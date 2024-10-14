@@ -1,0 +1,15 @@
+.footer {
+  padding-top: 1.125rem;
+  margin-bottom: 1.125rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: fit-content;
+  align-items: center;
+  border-top: var(--pink-red) solid 1px;
+  font-size: 0.85rem;
+}
+
+.footer span{
+  opacity: 0.8;
+}

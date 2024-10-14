@@ -1,5 +1,6 @@
 .container {
   margin: 0 1rem;
+  scroll-margin-top: 4.5rem;
 }
 
 .button {
@@ -54,12 +55,14 @@
 @media (width >= 768px) {
   .container {
     margin: 0 2rem;
+    scroll-margin-top: 6.25rem;
   }
 }
 
 @media (width >= 1024px) {
   .container {
     margin: 0 4rem;
+    scroll-margin-top: 8.25rem;
   }
 }
 

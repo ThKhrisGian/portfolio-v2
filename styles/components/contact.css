@@ -68,7 +68,7 @@
   cursor: pointer;
   padding: 0.5rem;
   font-weight: 700;
-  border: var(--pink-red) 1px solid;
+ border: none;
   color: var(--bg-color);
   background-color: var(--pink-red);
   letter-spacing: -0.04rem;

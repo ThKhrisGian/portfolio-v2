@@ -8,5 +8,6 @@ import "./styles/components/projects.css";
 import "./styles/components/skills.css";
 import "./styles/components/educations.css";
 import "./styles/components/contact.css";
+import "./styles/components/footer.css";
 import "./styles/components/mainContent.css";
 import "./components/navbar.js";
